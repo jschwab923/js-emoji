@@ -1,6 +1,6 @@
 <?php
+    error_reporting(0);
 	$options = getopt("", array("tpl::", "skip-nq"));
-	error_reporting(E_ALL & ~E_NOTICE);
 
 	$dir = dirname(__FILE__);
 	$tpl = $options['tpl'] ? realpath($options['tpl']) : $dir.'/emoji.js.template';

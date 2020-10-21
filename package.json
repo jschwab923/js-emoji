@@ -10,7 +10,7 @@
     "lib"
   ],
   "dependencies": {
-    "emoji-datasource": "4.1.0"
+    "emoji-datasource": "^6.0.0"
   },
   "devDependencies": {
     "grunt": "~1.0.1",
